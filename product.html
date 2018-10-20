@@ -54,7 +54,7 @@
             </ul>
           </section>
           <hr>
-          <form class="pull-right">
+          <form id="add-to-cart-form" class="pull-right">
             <label for="product-quantity">Quantité:</label>
             <input class="form-control" id="product-quantity" type="number" value="1" min="1">
             <button class="btn" title="Ajouter au panier" type="submit">
@@ -66,8 +66,15 @@
       </div>
     </article>
   </main>
+  <div id="popup">
+    <div id="dialog">
+        <p> Le produit a été ajouté au panier.</p>
+    </div>
+  </div>
   <footer>
     <p>Par Antoine Béland et Konstantinos Lambrou-Latreille</p>
   </footer>
+  <script type="text/javascript" src="./assets/js/jquery-3.2.1.min.js"></script>
+  <script type="text/javascript" src="./assets/js/scriptMain.js"></script>
 </body>
 </html>
