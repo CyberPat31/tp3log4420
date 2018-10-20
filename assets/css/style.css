@@ -371,3 +371,20 @@ footer {
   background-color: #eee;
   border-top: 1px solid #ccc;
 }
+#popup{
+  display: flex;
+  justify-content: center;
+}
+
+#dialog {
+position: absolute;
+display: none;
+height: 50px;
+border: 1px solid black;
+z-index:1000;
+background-color: black;
+color: white;
+min-width: 250px;
+text-align: center;
+border-radius: 12px;
+}
